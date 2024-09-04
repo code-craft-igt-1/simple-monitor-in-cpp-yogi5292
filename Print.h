@@ -1,10 +1,10 @@
 #ifndef PRINT_H_
 #define PRINT_H_
-#endif
+#endif // PRINT_H_
 
 #include <string>
 
 class Print {
-     public:
+      public:
         virtual void Print(string message) = 0;
 }

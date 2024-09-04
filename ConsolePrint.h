@@ -1,11 +1,11 @@
 #ifndef CONSOLEPRINT_H_
 #define CONSOLEPRINT_H_
-#endif
+#endif // CONSOLEPRINT_H_
 
-#include "./Print.h"
 #include <string>
+#include "./Print.h"
 
 class ConsolePrint : Print {
-      public:
+       public:
          void Print(string message);
 }
