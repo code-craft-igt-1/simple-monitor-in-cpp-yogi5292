@@ -1,3 +1,5 @@
 #pragma once
 
-int vitalsOk(float temperature, float pulseRate, float spo2);
+int oxySatOk(float spo2);
+int tempOk(float temperature);
+int pulseRateOk(float pulseRate);
