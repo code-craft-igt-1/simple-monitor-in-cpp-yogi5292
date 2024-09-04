@@ -7,5 +7,5 @@
 
 class ConsolePrint : Print {
  public:
-  void Print(string message);
-}
+  void PrintMessage(string message);
+};
