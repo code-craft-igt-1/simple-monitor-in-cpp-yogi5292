@@ -5,7 +5,4 @@
 #include <string>
 #include "./Print.h"
 
-class ConsolePrint : Print {
- public:
-  void PrintMessage(std::string message);
-};
+void PrintMessage(std::string message);
