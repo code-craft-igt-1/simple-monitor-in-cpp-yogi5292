@@ -1,5 +1,6 @@
-#ifndef CONSOLEPRINT_H_
-#define CONSOLEPRINT_H_
+#ifndef PRINT_H_
+#define PRINT_H_
+#endif
 
 #include <string>
 

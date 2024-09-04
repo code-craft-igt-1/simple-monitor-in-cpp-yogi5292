@@ -22,6 +22,6 @@ int pulseRateOk(float pulseRate) {
   if (pulseRate < 60 || pulseRate > 100) {
     ConsolePrint::Print("Pulse Rate is out of range!");
     return 0;
-  } 
+  }
   return 1;
 }

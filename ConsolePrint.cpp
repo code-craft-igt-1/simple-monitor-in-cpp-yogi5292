@@ -4,7 +4,7 @@
 #include <iostream>
 using std::cout, std::flush, std::this_thread::sleep_for, std::chrono::seconds;
 
-void ConsolePrint::Print(string message){
+void ConsolePrint::Print(string message) {
     cout << message << "\n";
     for (int i = 0; i < 6; i++) {
       cout << "\r* " << flush;
