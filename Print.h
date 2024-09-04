@@ -5,6 +5,6 @@
 #include <string>
 
 class Print {
-  public:
-        virtual void Print(string message) = 0;
+ public:
+  virtual void Print(string message) = 0;
 }

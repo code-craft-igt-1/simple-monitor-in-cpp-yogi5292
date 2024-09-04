@@ -6,6 +6,6 @@
 #include "./Print.h"
 
 class ConsolePrint : Print {
-  public:
-         void Print(string message);
+ public:
+  void Print(string message);
 }
