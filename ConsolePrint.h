@@ -7,5 +7,5 @@
 
 class ConsolePrint : Print {
  public:
-  void PrintMessage(string message);
+  void PrintMessage(std::string message);
 };

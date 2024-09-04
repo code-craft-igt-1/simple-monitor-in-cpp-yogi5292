@@ -6,5 +6,5 @@
 
 class Print {
  public:
-  virtual void PrintMessage(string message) = 0;
+  virtual void PrintMessage(std::string message) = 0;
 };
